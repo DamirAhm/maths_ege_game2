@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkTheme"
+    tools:context=".Task2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="239dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal='true'
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/task2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.1"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_1" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2_1"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.2"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_2" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.2"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.3"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_3" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.3"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.4"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_4" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.4"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.5"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_5" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.5"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.6"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_6" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.6"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.7"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_7" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.7"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.8"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_8" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.8"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.9"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_9" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.9"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.10"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_10" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.10"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.11"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_11" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.11"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.12"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_12" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.12"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.13"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_13" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.13"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.14"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_14" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.14"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.15"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_15" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.15"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.16"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_16" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.16"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.17"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_17" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.17"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.18"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_18" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.18"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.19"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_19" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.19"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+            <TextView
+                android:id="@+id/task2.20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/oxygen"
+                android:text="@string/task2.20"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"/>
+
+            <ImageView
+                android:id="@+id/imTask2.20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imtask2_20" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ansTask2.20"
+                android:fontFamily="@font/oxygen"
+                android:hint="@string/inputAnswer"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:text=""
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorWhite"
+                app:met_primaryColor="@color/colorWhite"
+                app:met_singleLineEllipsis="true" />
+
+            <Button
+                android:id="@+id/btnCheck20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/oxygen"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="18sp"
+                android:text="@string/btCheck" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

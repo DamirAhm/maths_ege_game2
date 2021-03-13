@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "966105459510",
+    "project_id": "math-ege-game",
+    "storage_bucket": "math-ege-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966105459510:android:bb82f58abedeb38c0be197",
+        "android_client_info": {
+          "package_name": "com.example.maths_ege_game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966105459510-2at957pjmgn02lkhgafvnndnmdu2bt41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maths_ege_game",
+            "certificate_hash": "1653f5292137f0145f4195f3c70e2921532d986f"
+          }
+        },
+        {
+          "client_id": "966105459510-cj79icnuebm7e6abp9dh8pu9pqaresdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPyo8Ab6A0pTo3uGc6CJrFIOMRx4lVu0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966105459510-cj79icnuebm7e6abp9dh8pu9pqaresdf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

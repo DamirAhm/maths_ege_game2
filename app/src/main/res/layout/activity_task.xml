@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkTheme"
+    tools:context=".TaskActivity">
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="733dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginEnd="40sp"
+                android:fontFamily="monospace"
+                android:paddingTop="10sp"
+                android:paddingBottom="10sp"
+                android:text="@string/textVibor"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textColorLink="@android:color/black"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask1" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask2" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask3" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask4" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask5" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask6" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask7" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask8" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask9" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask10" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask11" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask12" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask13" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask14" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask15" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask16" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask17" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask18" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginRight="40sp"
+                android:background="@drawable/button"
+                android:fontFamily="monospace"
+                android:padding="10sp"
+                android:textColor="@color/colorDark"
+                android:textColorLink="@android:color/black"
+                android:textSize="22sp"
+                android:text="@string/buttonTask19" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
